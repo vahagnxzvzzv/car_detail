@@ -1,0 +1,630 @@
+{
+ "vehicles": [
+  {
+   "id": "bmw-x5-g05-2018",
+   "brand": "BMW",
+   "model": "X5 (G05)",
+   "year": 2018,
+   "available": true,
+   "asset": "/models/bmw-x5-g05-2018.glb",
+   "length": 4.92,
+   "rotation": 0,
+   "paintMaterials": [
+    "M_E_common_Paint"
+   ],
+   "mirror": {
+    "meshes": [
+     "001_Hood_paint",
+     "001_Exterior_Chrome_Matte"
+    ],
+    "axis": "z"
+   },
+   "attribution": "BMW Car IT GmbH · CC BY 4.0",
+   "source": "https://github.com/bmwcarit/digital-car-3d",
+   "parts": {
+    "rims": {
+     "meshes": [
+      "002_Wheel_Rim"
+     ],
+     "materials": [
+      "M_E_common_Rim_Paint_silver"
+     ]
+    },
+    "calipers": {
+     "meshes": [
+      "006_Brake_Caliper"
+     ]
+    },
+    "interior": {
+     "meshes": [
+      "003_Seats_F_common_general",
+      "001_Seats_B_common_general",
+      "001_Interior_Color_common_general",
+      "001_Door_F_interior",
+      "001_Door_B_interior"
+     ]
+    },
+    "glass": {
+     "materials": [
+      "M_E_common_Glass_1sided",
+      "M_E_common_Glass_2sided_dark"
+     ]
+    },
+    "headlights": {
+     "materials": [
+      "M_E_common_LightEffect_F",
+      "M_E_common_LightEffect_F.001"
+     ]
+    },
+    "taillights": {
+     "materials": [
+      "M_E_common_LightEffect_B"
+     ]
+    }
+   },
+   "cabin": {
+    "forward": [
+     -1,
+     0,
+     0
+    ],
+    "light": [
+     0.35,
+     1.58,
+     0
+    ],
+    "seats": [
+     {
+      "label": "Driver",
+      "eye": [
+       0.15,
+       1.37,
+       0.4
+      ]
+     },
+     {
+      "label": "Passenger",
+      "eye": [
+       0.15,
+       1.37,
+       -0.4
+      ]
+     },
+     {
+      "label": "Rear",
+      "eye": [
+       1.07,
+       1.38,
+       0.38
+      ]
+     }
+    ]
+   },
+   "openings": [
+    {
+     "node": "Pivot_G05_Door_F_L",
+     "label": "Front left door",
+     "axis": "y",
+     "angle": -1
+    },
+    {
+     "node": "Pivot_G05_Door_F_R",
+     "label": "Front right door",
+     "axis": "y",
+     "angle": 1
+    },
+    {
+     "node": "Pivot_G05_Door_B_L",
+     "label": "Rear left door",
+     "axis": "y",
+     "angle": -1
+    },
+    {
+     "node": "Pivot_G05_Door_B_R",
+     "label": "Rear right door",
+     "axis": "y",
+     "angle": 1
+    },
+    {
+     "node": "Pivot_G05_Hood",
+     "label": "Hood",
+     "axis": "z",
+     "angle": -0.85
+    },
+    {
+     "node": "Pivot_G05_Tailgate_U",
+     "label": "Tailgate",
+     "axis": "z",
+     "angle": 1.15
+    },
+    {
+     "node": "Pivot_G05_ChargingFlap",
+     "label": "Charging flap",
+     "axis": "y",
+     "angle": 1.4
+    }
+   ],
+   "interiorStyle": {
+    "quilted": [
+     "003_Seats_F_common_general",
+     "001_Seats_B_common_general"
+    ],
+    "leather": [
+     "001_Interior_Color_common_general",
+     "001_Door_F_interior",
+     "001_Door_B_interior"
+    ],
+    "dash": [
+     "002_Dashboard_common_general"
+    ],
+    "wheel": [
+     "001_SteeringWheel_common_general"
+    ],
+    "base": [
+     "002_Interior_common_general"
+    ],
+    "band": [
+     0.975,
+     1.035
+    ],
+    "chrome": 1.045,
+    "screens": [
+     {
+      "kind": "cluster",
+      "center": [
+       -0.64,
+       1.165,
+       0.4
+      ],
+      "size": [
+       0.28,
+       0.095
+      ],
+      "lookAt": [
+       0.15,
+       1.37,
+       0.4
+      ]
+     },
+     {
+      "kind": "center",
+      "center": [
+       -0.6,
+       1.235,
+       0.03
+      ],
+      "size": [
+       0.31,
+       0.115
+      ],
+      "lookAt": [
+       0.15,
+       1.37,
+       0.25
+      ]
+     }
+    ],
+    "top": 1.18
+   }
+  },
+  {
+   "id": "ferrari-458-italia",
+   "brand": "Ferrari",
+   "model": "458 Italia",
+   "year": 2010,
+   "available": true,
+   "asset": "/models/ferrari-458-italia.glb",
+   "length": 4.527,
+   "rotation": 1.5708,
+   "paintMaterials": [
+    "Body_Color"
+   ],
+   "attribution": "vicent091036 (Sketchfab) via three.js examples",
+   "source": "https://sketchfab.com/models/57bf6cc56931426e87494f554df1dab6",
+   "parts": {
+    "rims": {
+     "meshes": [
+      "rim_",
+      "wheel"
+     ],
+     "materials": [
+      "metal_gray"
+     ]
+    },
+    "interior": {
+     "materials": [
+      "Leather"
+     ]
+    },
+    "glass": {
+     "materials": [
+      "Glass_Gray"
+     ]
+    },
+    "headlights": {
+     "materials": [
+      "Projector_Glass"
+     ]
+    },
+    "taillights": {
+     "materials": [
+      "Taillight_Glass"
+     ]
+    }
+   },
+   "cabin": {
+    "forward": [
+     0,
+     0,
+     -1
+    ],
+    "light": [
+     0,
+     1.1,
+     -0.05
+    ],
+    "seats": [
+     {
+      "label": "Driver",
+      "eye": [
+       -0.35,
+       1.01,
+       0.24
+      ]
+     },
+     {
+      "label": "Passenger",
+      "eye": [
+       0.35,
+       1.01,
+       0.24
+      ]
+     }
+    ]
+   },
+   "openings": [
+    {
+     "node": "Door_L",
+     "label": "Left door",
+     "axis": "y",
+     "angle": 1.05
+    },
+    {
+     "node": "Door_R",
+     "label": "Right door",
+     "axis": "y",
+     "angle": 1.05
+    },
+    {
+     "node": "Front_Lid",
+     "label": "Front trunk",
+     "axis": "x",
+     "angle": 0.9
+    },
+    {
+     "node": "Engine_Cover",
+     "label": "Engine cover",
+     "axis": "x",
+     "angle": 0.8
+    }
+   ]
+  },
+  {
+   "id": "porsche-911-930-turbo-1975",
+   "brand": "Porsche",
+   "model": "911 Turbo (930)",
+   "year": 1975,
+   "available": true,
+   "asset": "/models/porsche-911-930-turbo-1975.glb",
+   "length": 4.67,
+   "rotation": -1.5708,
+   "paintMaterials": [
+    "paint"
+   ],
+   "hide": [
+    "Plane_015_62",
+    "Cylinder_002_32",
+    "Circle_000_12"
+   ],
+   "attribution": "Lionsharp Studios · CC BY 4.0",
+   "source": "https://sketchfab.com/3d-models/8568d9d14a994b9cae59499f0dbed21e",
+   "parts": {
+    "rims": {
+     "materials": [
+      "_30_rim"
+     ]
+    },
+    "glass": {
+     "materials": [
+      "glass"
+     ]
+    },
+    "headlights": {
+     "nodes": [
+      "Circle_005_57"
+     ]
+    },
+    "taillights": {
+     "nodes": [
+      "Circle_008_58"
+     ]
+    }
+   },
+   "cabin": {
+    "forward": [
+     0,
+     0,
+     1
+    ],
+    "light": [
+     0,
+     1.15,
+     -0.05
+    ],
+    "seats": [
+     {
+      "label": "Driver",
+      "eye": [
+       0.3,
+       1.14,
+       -0.14
+      ]
+     },
+     {
+      "label": "Passenger",
+      "eye": [
+       -0.3,
+       1.14,
+       -0.14
+      ]
+     }
+    ]
+   },
+   "openings": [
+    {
+     "node": "Door_L",
+     "label": "Left door",
+     "axis": "y",
+     "angle": 1.1
+    },
+    {
+     "node": "Door_R",
+     "label": "Right door",
+     "axis": "y",
+     "angle": 1.1
+    },
+    {
+     "node": "Front_Lid",
+     "label": "Front trunk",
+     "axis": "x",
+     "angle": 0.95
+    },
+    {
+     "node": "Engine_Lid",
+     "label": "Engine lid",
+     "axis": "x",
+     "angle": 0.85
+    }
+   ]
+  },
+  {
+   "id": "mercedes-g-class-brabus",
+   "brand": "Mercedes-Benz",
+   "model": "G-Class Brabus",
+   "year": 2020,
+   "available": true,
+   "asset": "/models/mercedes-g-class-brabus.glb",
+   "length": 4.87,
+   "rotation": -1.5708,
+   "paintMaterials": [
+    "bodypaint_001"
+   ],
+   "attribution": "KINGSLEY_king (Sketchfab) · CC BY 4.0",
+   "source": "https://sketchfab.com/3d-models/b19805ec913240e29a410910e655f2fe",
+   "parts": {
+    "rims": {
+     "materials": [
+      "right_wheel_2_001"
+     ]
+    },
+    "interior": {
+     "materials": [
+      "ptn_leather_016_lcao_001"
+     ]
+    },
+    "glass": {
+     "materials": [
+      "ExtWindowsGlass_001",
+      "ExtWindowsGlass_0_001"
+     ]
+    },
+    "headlights": {
+     "materials": [
+      "leather02_weave_18_001"
+     ]
+    },
+    "taillights": {
+     "materials": [
+      "ExtWindowsGlass_1_001"
+     ]
+    }
+   },
+   "cabin": {
+    "forward": [
+     0,
+     0,
+     1
+    ],
+    "light": [
+     0,
+     1.75,
+     -0.3
+    ],
+    "seats": [
+     {
+      "label": "Driver",
+      "eye": [
+       0.42,
+       1.58,
+       -0.24
+      ]
+     },
+     {
+      "label": "Passenger",
+      "eye": [
+       -0.4,
+       1.58,
+       -0.24
+      ]
+     },
+     {
+      "label": "Rear",
+      "eye": [
+       0.4,
+       1.62,
+       -1.05
+      ]
+     }
+    ]
+   },
+   "openings": [
+    {
+     "node": "Door_FL",
+     "label": "Front left door",
+     "axis": "y",
+     "angle": 1.1
+    },
+    {
+     "node": "Door_FR",
+     "label": "Front right door",
+     "axis": "y",
+     "angle": 1.1
+    },
+    {
+     "node": "Door_RL",
+     "label": "Rear left door",
+     "axis": "y",
+     "angle": 1.1
+    },
+    {
+     "node": "Door_RR",
+     "label": "Rear right door",
+     "axis": "y",
+     "angle": 1.1
+    },
+    {
+     "node": "Hood",
+     "label": "Hood",
+     "axis": "x",
+     "angle": 0.8
+    },
+    {
+     "node": "Rear_Door",
+     "label": "Rear door",
+     "axis": "y",
+     "angle": 1.5
+    }
+   ]
+  },
+  {
+   "id": "lamborghini-aventador-svj-63",
+   "brand": "Lamborghini",
+   "model": "Aventador SVJ 63",
+   "year": 2019,
+   "available": true,
+   "asset": "/models/lamborghini-aventador-svj-63.glb",
+   "length": 4.94,
+   "rotation": -1.5708,
+   "paintMaterials": [
+    "Lamborghini_AventadorSVJRewardRecycled_2019Paint_Material"
+   ],
+   "attribution": "ddiaz-design (Sketchfab) · CC BY 4.0 as labeled — see provenance note",
+   "source": "https://sketchfab.com/3d-models/89258ec08a6c4e9dbc4194cf71c0aa08",
+   "parts": {
+    "rims": {
+     "materials": [
+      "Lamborghini_AventadorSVJRewardRecycled_2019_Wheel1A_3D_3DWheel1A_Material"
+     ]
+    },
+    "calipers": {
+     "materials": [
+      "Lamborghini_AventadorLP7504Superveloce_2015CalliperGloss_Material"
+     ]
+    },
+    "interior": {
+     "materials": [
+      "Lamborghini_AventadorSVJRewardRecycled_2019InteriorA_Material"
+     ]
+    },
+    "glass": {
+     "materials": [
+      "Lamborghini_AventadorSVJRewardRecycled_2019Window_Material"
+     ]
+    },
+    "headlights": {
+     "materials": [
+      "Lamborghini_AventadorSVJRewardRecycled_2019LightA_Material"
+     ]
+    },
+    "taillights": {
+     "materials": [
+      "RED_GLASS"
+     ]
+    }
+   },
+   "cabin": {
+    "forward": [
+     0,
+     0,
+     1
+    ],
+    "light": [
+     0,
+     0.95,
+     -0.2
+    ],
+    "seats": [
+     {
+      "label": "Driver",
+      "eye": [
+       0.3,
+       0.93,
+       -0.32
+      ]
+     },
+     {
+      "label": "Passenger",
+      "eye": [
+       -0.3,
+       0.93,
+       -0.32
+      ]
+     }
+    ]
+   },
+   "openings": [
+    {
+     "node": "Door_L",
+     "label": "Left door",
+     "axis": "x",
+     "angle": 1.2
+    },
+    {
+     "node": "Door_R",
+     "label": "Right door",
+     "axis": "x",
+     "angle": 1.2
+    },
+    {
+     "node": "Front_Lid",
+     "label": "Front trunk",
+     "axis": "x",
+     "angle": 0.9
+    }
+   ],
+   "wheels": {
+    "replaceTires": true
+   }
+  }
+ ]
+}

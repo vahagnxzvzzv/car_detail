@@ -1,0 +1,8 @@
+{
+ "collapse": true,
+ "parts": [
+  {"name": "Door_L", "hinge": [0.88, 0.52, 0.86], "box": {"min": [0.72, 0.17, -0.46], "max": [1.06, 1.05, 0.92]}},
+  {"name": "Door_R", "hinge": [-0.88, 0.52, 0.86], "box": {"min": [-1.06, 0.17, -0.46], "max": [-0.72, 1.05, 0.92]}},
+  {"name": "Front_Lid", "hinge": [0, 0.75, 1.4], "box": {"min": [-0.82, 0.47, 1.36], "max": [0.82, 0.78, 2.23]}, "materials": ["Paint_Material", "Carbon1"]}
+ ]
+}

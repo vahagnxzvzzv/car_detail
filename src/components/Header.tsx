@@ -1,0 +1,3 @@
+import {CarLogo,Icon} from './Icons';
+export type Section='Car'|'Paint'|'Customize'|'View';
+export function Header({active,onSection,onReset}:{active:Section;onSection:(s:Section)=>void;onReset:()=>void}){return <header className="header"><a className="brand" href="/" aria-label="Detailing Studio home"><CarLogo/><span>Detailing <em>Studio</em></span></a><nav aria-label="Configurator sections">{(['Car','Paint','Customize','View'] as Section[]).map(s=><button key={s} className={active===s?'nav-button active':'nav-button'} aria-pressed={active===s} onClick={()=>onSection(s)}>{s}</button>)}</nav><button className="reset" onClick={onReset}><Icon name="reset"/><span>Reset</span></button></header>}

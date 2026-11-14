@@ -1,0 +1,8 @@
+{
+ "parts": [
+  {"name": "Door_L", "hinge": [-0.9, 0.55, -0.72], "box": {"min": [-1.15, 0.2, -0.75], "max": [-0.74, 1.0, 0.57]}},
+  {"name": "Door_R", "hinge": [0.9, 0.55, -0.72], "box": {"min": [0.74, 0.2, -0.75], "max": [1.15, 1.0, 0.57]}},
+  {"name": "Front_Lid", "hinge": [0, 0.84, -0.9], "box": {"min": [-0.83, 0.54, -2.17], "max": [0.83, 0.86, -0.86]}, "materials": ["Body_Color", "Ferrari_Yellow"]},
+  {"name": "Engine_Cover", "hinge": [0, 1.0, 1.27], "box": {"min": [-0.8, 0.84, 1.23], "max": [0.8, 1.03, 2.18]}, "materials": ["Body_Color", "Carbon_Fiber", "Ferrari_Yellow"]}
+ ]
+}
